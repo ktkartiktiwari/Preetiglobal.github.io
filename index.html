@@ -1,0 +1,558 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Dr.Preeti Global University</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/logo.png" rel="icon">
+    <!-- Bootstrap core CSS -->
+<link href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/css/style.css" rel="stylesheet">
+<link href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/css/swiper-bundle.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/css/carousel.css" rel="stylesheet">
+       <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    
+
+ <header class="header">
+  <div class="container">
+    <div class="row v-center">
+      <div class="header-item item-left logo">
+        <div class="c d-flex  align-items-center">
+          <img src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/logo.png">
+          <div>
+            <h5>Dr.Preeti Global University <br>
+         Shivpuri (Madhya Pradesh)</h5>
+              <p class="logos">Under the aegis of
+"Laxman Seth Group of Institutions & Laxman Seth Educational Foundation "</p>
+      </div>
+          </div>
+                   
+         
+        </div>
+
+      <!-- menu start here -->
+      <div class="header-item item-center ">
+        <div class="menu-overlay">
+        </div>
+        <nav class="menu">
+          <div class="mobile-menu-head">
+            <div class="go-back"><i class="fa fa-angle-left"></i></div>
+            <div class="current-menu-title"></div>
+            <div class="mobile-menu-close">&times;</div>
+          </div>
+          <ul class="menu-main">
+            <li>
+              <a href="https://www.drpreetiglobaluniversity.com">Home</a>
+            </li>
+            <li class="menu-item-has-children">
+              <a href="#">About <i class="fas fa-angle-down"></i></a>
+             <!--  <div class="sub-menu single-column-menu">
+                <h4 class="title"> University History</h4>
+                                  <ul>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/global/about"> About University</a></li>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/global/history"> University History</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/layout"> Layout of University</a></li>
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/global/dpgu">Why DPGU</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/our-vision">Our Vision</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/our-mission">Our Mission</a></li>
+                                     
+                                  </ul>
+              </div> -->
+                <div class="sub-menu mega-menu mega-menu-column-4">
+
+                               <div class="list-item">
+                                 <img src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/WhatsApp Image 2023-03-29 at 5.36.49 PM.jpeg" alt="shop">
+                               </div>
+                               <div class="list-item">
+                                  <h4 class="title">The University </h4>
+                                  <ul>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/global/about"> About University</a></li>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/global/history"> University History</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/layout"> Layout of University</a></li>
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/global/dpgu">Why DPGU</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/our-vision">Our Vision</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/our-mission">Our Mission</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/Message">Message</a></li>
+                                     
+                                  </ul>
+                                  
+                               </div>
+
+                                <div class="list-item">
+                                  <h4 class="title"> Approvals</h4>
+                                  <ul>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/2022-09-15-Ex-498.pdf" target="_blank">University </a></li>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Dr. Preeti Global University.pdf" target="_blank">UGC</a></li>
+                                    
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/laxmansrth - mp.pdf" target="_blank">New NCTE</a></li>
+                                    
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/ncte.pdf" target="_blank">NCTE-1</a></li>
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/NCTE-2.pdf" target="_blank">NCTE-2</a></li>
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/BPED Recognition 1 .pdf" target="_blank">AICTE</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Paramedical-council.pdf" target="_blank">Paramedical council </a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Nursing-council.jpeg" target="_blank">Nursing Council </a></li>
+                                     
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Pharmacy 23-24 approval.pdf" target="_blank">New PCI</a></li>
+                                     
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/PCI.pdf" target="_blank">PCI-1</a></li>
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/pcl2.PDF" target="_blank">PCI-2</a></li>
+                                      
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/05 Faculty of Law, Dr. Preeti Global University, Shivpuri, Madhya Pradesh.pdf" target="_blank">LAW</a></li>
+                                     
+                                  </ul>
+                                  
+                               </div>
+
+                              <!--  <div class="list-item">
+                                  <h4 class="title"> All Fees</h4>
+                                  <ul>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/University-Fees-Structre.pdf" target="_blank"> Fees</a></li>
+                                    
+                                     
+                                  </ul>
+                                  
+                               </div> -->
+
+                          
+
+                </div>
+            </li>
+                       <li class="menu-item-has-children">
+                          <a href="#" >Academics <i class="fa fa-angle-down"></i></a>
+                             <div class="sub-menu mega-menu mega-menu-column-4">
+                               <div class="list-item">
+                                <ul>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Engineering">Department of Engineering & Technologies </a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Pharmacy">Department of Pharmacy</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Management">Department of Management</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Commerce">Department of Commerce</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Nursing">Department of Nursing</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Arts">Department of Arts</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Agriculture">Department of Agriculture</a></li>
+                                </ul>
+                              </div>
+                               <div class="list-item">
+                                <ul>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Paramedical-Science">Department of Paramedical Science</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/General-Science">Department of General Science</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Forensic-Science">Department of Forensic Science</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Communication">Dept. of Journalism & Mass Communication</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/Physical-Education">Department of Physical Education</a></li>
+                                  <li> <a href="https://www.drpreetiglobaluniversity.com/global/LAW">Department of LAW</a></li>
+                                </ul> 
+                               </div>
+                               <div class="list-item">
+                                <ul>
+                                <li> <a href="https://www.drpreetiglobaluniversity.com/global/Computer-Application">Department of Computer Application</a></li>
+                                <li> <a href="https://www.drpreetiglobaluniversity.com/global/Home-Science">Department of Home Science</a></li>
+                                <li> <a href="https://www.drpreetiglobaluniversity.com/global/fine-Arts">Department of Fine  Arts</a></li>
+                                <li> <a href="https://www.drpreetiglobaluniversity.com/global/Social-Work">Department of Social Work</a></li>
+                                <li> <a href="https://www.drpreetiglobaluniversity.com/global/Library-Science">Department of Library Science</a></li>
+
+                                <li> <a href="https://www.drpreetiglobaluniversity.com/global/Education">Department of Education</a></li>
+                                 <!--<li> <a href="https://www.drpreetiglobaluniversity.com/global/Embryology">Department of Embryology</a></li>-->
+                                </ul> 
+                               </div>
+                               <div class="list-item">
+                                  <img src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/WhatsApp Image 2023-03-29 at 5.36.49 PM.jpeg" alt="shop">
+                               </div>
+                          </div>
+                     </li>
+            <li class="menu-item-has-children">
+              <a href="#">Admission <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li><a href="https://www.drpreetiglobaluniversity.com/global/admission-online">Online Admission</a></li>
+                  <li><a href="https://www.drpreetiglobaluniversity.com/global/admission">Offline Admission</a></li>
+                  
+                </ul>
+              </div>
+            </li>
+           
+
+            <li class="menu-item-has-children">
+              <a href="#">Campus <i class="fas fa-angle-down"></i></a>
+
+               <div class="sub-menu single-column-menu">
+                 <ul>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/campuslife">Gallery</a></li>
+                                 <!--     <li><a href="https://www.drpreetiglobaluniversity.com/global/campuslife-video">Video Gallery</a></li> -->
+                                    
+                  </ul>
+              </div>
+
+               <!-- <div class="sub-menu mega-menu mega-menu-column-4">
+                    <div class="list-item">
+                                  <img src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/WhatsApp Image 2023-03-29 at 5.36.49 PM.jpeg" alt="shop">
+                               </div>
+                               <div class="list-item">
+                                <ul>
+                                 <li> <a href="https://www.drpreetiglobaluniversity.com/global/about"> Campus Events</a></li>
+                                   <li><a href="https://www.drpreetiglobaluniversity.com/global/about"> Visiting Campus</a></li>
+                                   <li> <a href="https://www.drpreetiglobaluniversity.com/global/about"> Campus Highlights</a></li>
+                                   <li> <a href="https://www.drpreetiglobaluniversity.com/global/about">Campus Safety</a></li>
+                                  </ul>
+                               </div>
+                               <div class="list-item">
+                                
+                                 <a href="#"> <h4 class="title">Gallery</h4></a>
+                                
+
+                                <ul>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/campuslife">Gallery</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/campuslife-video">Video Gallery</a></li>
+                                    
+                                  </ul>
+                                  
+                               </div>
+                               <div class="list-item">
+                                <h4 class="title">Campus Events</h4>
+                                <ul>
+                                     <li><a href="#">Product List</a></li>
+                                     <li><a href="#">Product List</a></li>
+                                     <li><a href="#">Product List</a></li>
+                                     <li><a href="#">Product List</a></li>
+                              
+                                     
+                                  </ul>
+                               </div>
+                             
+
+              </div> -->
+            </li>
+             <li class="menu-item-has-children">
+              <a href="#">Career <i class="fas fa-angle-down"></i></a>
+                 <div class="sub-menu mega-menu mega-menu-column-4">
+                    <div class="list-item">
+                                 <img src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/WhatsApp Image 2023-03-29 at 5.36.49 PM.jpeg" alt="shop">
+                               </div>
+                               <div class="list-item">
+                                  
+                                  <ul>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/career-applyonline">Apply online</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/Current-opening">Current opening</a></li>
+                                     
+                                  </ul>
+                                  
+                               </div>
+                               <!-- <div class="list-item">
+                                <h4 class="title">infrastructure</h4>
+                                <ul>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Library</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Laboratories</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Hostel</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Sports Facility</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Transport</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Healthcare</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/global/about">Computer Lab</a></li>
+                                  </ul>
+                                  
+                               </div> -->
+                               <!-- <div class="list-item">
+                                 <img src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/img/services-1.jpg" alt="shop">
+                               </div> -->
+                             
+
+              </div>
+            </li>
+            
+             <!--<li class="menu-item-has-children">
+              <a href="https://www.drpreetiglobaluniversity.com/global/Online_Program">online Programme</a>-->
+              <!--   <div class="sub-menu mega-menu mega-menu-column-4">-->
+                   
+              <!--                 <div class="list-item">-->
+                                  
+              <!--                    <ul>-->
+                                    
+              <!--                       <li><a href="https://www.drpreetiglobaluniversity.com/global/Current-opening">online Programme</a></li>-->
+                                     
+              <!--                    </ul>-->
+                                  
+              <!--                 </div>-->
+              <!--</div>-->
+           <!-- </li>-->
+            <li>
+              <a href="https://www.drpreetiglobaluniversity.com/global/contact">Contact</a>
+            </li>
+            <li>
+              <a href="https://www.drpreetiglobaluniversity.com/global/online-fees">Online Fees</a>
+            </li>
+           <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Exam-Form-Notice.pdf" target="_blank">Notice</a></li>
+                                    
+           <!--   <li class="menu-item-has-children">
+              <a href="#">Results <i class="fas fa-angle-down"></i></a>
+              <div class="sub-menu single-column-menu">
+                <ul>
+                  <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Exam-Form-Notice.pdf" target="_blank">Session 2023-24</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </li> -->
+
+
+              <li class="menu-item-has-children">
+              <a href="#">Results <i class="fas fa-angle-down"></i></a>
+            
+                <div class="sub-menu mega-menu mega-menu-column-4">
+
+                               
+                               <div class="list-item">
+                                  <h4 class="title">Session 2023-24 </h4>
+                                  <ul>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/B PHARMA RESULT 1ST SEM.pdf" target="_blank">B PHARMA RESULT 1ST SEM</a></li>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/B TECH RESULT 1ST SEM CIVIL ENG..pdf"  target="_blank">B TECH RESULT 1ST SEM CIVIL ENG.</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/B TECH RESULT 1ST SEM COMPUTER SCIENCE.pdf"  target="_blank">B TECH RESULT 1ST SEM COMPUTER SCIENCE</a></li>
+                                      <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/B TECH RESULT 1ST SEM ELECTRICAL.pdf"  target="_blank">B TECH RESULT 1ST SEM ELECTRICAL</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/B TECH RESULT 1ST SEM ELECTRONICS.pdf"  target="_blank">B TECH RESULT 1ST SEM ELECTRONICS</a></li>
+                                    
+                                     
+                                  </ul>
+                                  
+                               </div>
+
+                                <div class="list-item">
+                                  <h4 class="title"> </h4>
+                                  <ul>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/B TECH RESULT 1ST SEM MECHANICAL.pdf"  target="_blank">B TECH RESULT 1ST SEM MECHANICAL</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/BA LLB RESULT 1ST SEM.pdf"  target="_blank">BA LLB RESULT 1ST SEM</a></li>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/BPED RESULT 1ST SEMESTER.pdf" target="_blank">BPED RESULT 1ST SEMESTER</a></li>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/LLB RESULT 1ST SEM.pdf"  target="_blank">LLB RESULT 1ST SEM</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/POLY CIVIL RESULT 1ST SEM.pdf"  target="_blank">POLY CIVIL RESULT 1ST SEM</a></li>
+                                      
+                                 
+                                     
+                                  </ul>
+                                  
+                               </div>
+
+                               <div class="list-item">
+                                  <h4 class="title"> </h4>
+                                  <ul>
+                                    <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/POLY COMPUTER SCIENCE RESULT 1ST SEM.pdf"  target="_blank">POLY COMPUTER SCIENCE RESULT 1ST SEM</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/POLY ELECTRICAL RESULT 1ST SEM.pdf"  target="_blank">POLY ELECTRICAL RESULT 1ST SEM</a></li>
+                                     <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/POLY MECHANICAL RESULT 1ST SEM.pdf"  target="_blank">POLY MECHANICAL RESULT 1ST SEM</a></li>
+                                 
+                                     
+                                  </ul>
+                                  
+                               </div>
+
+                             
+
+                          
+
+                </div>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+      <!-- menu end here --> 
+      <div class="header-item item-right">
+     
+        <div class="mobile-menu-trigger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+ </header><main>
+ <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header justify-content-center">
+          <h2>Online Fees</h2>
+
+          <!-- <p >Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum esciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p> -->
+        </div>
+
+        <div class="row gx-lg-0 gy-4">
+
+          <div class="col-lg-4">
+
+            <div class="info-container d-flex flex-column align-items-center justify-content-center" style="height: 40%">
+              <div class="info-item d-flex">
+                <i class="fa-solid fa-location-dot flex-shrink-0"></i>
+                <div>
+                  <h4>Online Payment</h4><br>
+                  <p>HDFC ACCOUNT</p>
+                  <p>Dr Preeti Global University</p>
+                  <p>AC : 99909235592522</p>
+                  <p>IFSC : HDFC0007607</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex">
+            <i class="fa-solid fa-location-dot flex-shrink-0"></i>
+                <div>
+                  <h4>UPI Payment Number:</h4>
+                  <p>Phonepe : 9235592522</p>
+                </div>
+              </div><!-- End Info Item -->
+
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+          
+          <img src="Screenshot 2025-02-14 193318.png"> 
+
+
+
+          <!-- End Contact Section -->
+
+  <!---/.EMD OF FOOTER--->
+</main>
+
+<footer id="footer" class="footer">
+
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+
+          
+
+           <div class="col-lg-4">
+            <div class="footer-info">
+             <h4>Dr. Preeti Global University <br>
+              <span>Shivpuri (Madhya Pradesh)</span></h4>
+              <p>
+                <strong>Address :</strong> Dinara, Distt. Shivpuri (Madhya Pradesh)
+               - 473665<br>
+                <strong>Phone :</strong> 7049755555, 9452509812 <br>
+                 <strong>Mail :</strong> dpguindia@gmail.com<br>
+              </p>
+              <br>
+              <strong>Indore City Office:-</strong>
+              <p>
+                <strong>Address :</strong> 308, Shreevardhan Complex, G-1, RNT Marg, South Tukoganj, Indore, Madhya Pradesh 452001
+               - 473665<br>
+                <strong>Phone :</strong> 9993776088 <br>
+                 <strong>Mail :</strong> dpguindia@gmail.com<br>
+              </p>
+              <div class="nt-link">
+                 <h4>Follow us on:</h4>
+             <div class="social-links d-flex mt-3">
+
+                <a href="https://twitter.com/dpguindia" class="d-flex align-items-center justify-content-center"><i class="fa-brands fa-twitter"></i></a>
+                <a href="http://www.facebook.com/dpguindia" class="d-flex align-items-center justify-content-center"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/dpguindia/" class="d-flex align-items-center justify-content-center"><i class="fa-brands fa-instagram"></i></a>
+                <!-- <a href="#" class="d-flex align-items-center justify-content-center"><i class="fa-brands fa-linkedin"></i></a> -->
+              </div>
+          </div>
+             
+            </div>
+          </div> <!-- End footer info column-->
+
+
+          <div class="col-lg-3 ">
+             <div class="footer-links">
+              <h4>Information</h4>
+                <hr style="color: #d4602a;">
+        
+            <ul>
+              <li><a href="https://www.drpreetiglobaluniversity.com/global/home">Home</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/global/about">About us</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/global/academics">Courses</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+            </div>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-3 ">
+            <div class="footer-links">
+              <h4>External Links</h4>
+                <hr style="color: #d4602a;">
+           
+            <ul>
+              <li><a href=" https://www.mpnvva.in/">MPPURC Bhopal</a></li>
+              <li><a href=" https://www.ugc.gov.in/">UGC Delhi</a></li>
+              <li><a href="https://www.ugc.gov.in/">NCTE Delhi</a></li>
+              <li><a href=" https://www.pci.nic.in/">PCI Delhi</a></li>
+              <li><a href=" http://www.barcouncilofindia.org/">BAR Council</a></li>
+               <li><a href="https://www.aicte-india.org/">AICTE Delhi</a></li>
+              <li><a href="https://www.mponline.gov.in/">MP Online</a></li>
+            </ul>
+            </div>
+          </div><!-- End footer links column-->
+          
+
+          <div class="col-lg-2">
+            <div class="footer-links">
+              <h4>Approvals</h4>
+                <hr style="color: #d4602a;">
+          
+            <ul>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/2022-09-15-Ex-498.pdf">University</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Dr. Preeti Global University.pdf">UGC</a></li>
+               <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/laxmansrth - mp.pdf" target="_blank">New NCTE</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/ncte.pdf">NCTE-1</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/NCTE-2.pdf">NCTE-2</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/BPED Recognition 1 .pdf">AICTE</a></li>
+               <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Paramedical-council.pdf">Paramedical council</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Nursing-council.jpeg">Nursing Council</a></li>
+                 <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/Pharmacy 23-24 approval.pdf" target="_blank">New PCI</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/PCI.pdf">PCI-1</a></li>
+              <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/pcl2.PDF">PCI-2</a></li>
+                <li><a href="https://www.drpreetiglobaluniversity.com/public/frontend/assets/pdf/05 Faculty of Law, Dr. Preeti Global University, Shivpuri, Madhya Pradesh.pdf" target="_blank">LAW</a></li>
+            </ul>
+            </div>
+          </div><!-- End footer links column-->
+
+          
+    <hr style="color: #d4602a;">
+        </div>
+       
+      </div>
+    </div>
+
+    
+
+  </footer>
+
+    <script src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/js/swiper-bundle.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+      <script src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/js/glightbox.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <script src="https://www.drpreetiglobaluniversity.com/public/frontend/assets/js/main.js"></script>
+ <script>
+  AOS.init();
+</script>
+  </body>
+</html>
